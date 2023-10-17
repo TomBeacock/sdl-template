@@ -6,12 +6,13 @@ Language: Cpp
 KeepEmptyLinesAtTheStartOfBlocks: false
 AccessModifierOffset: -2
 AlignAfterOpenBracket: AlwaysBreak
-BreakBeforeBraces: Linux
+BreakBeforeBraces: Mozilla
 SpaceInEmptyBlock: false
 SpaceInEmptyParentheses: false
 IncludeBlocks: Regroup
 FixNamespaceComments: true
 ColumnLimit: 80
-AllowShortFunctionsOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Inline
 BinPackParameters: false
 BinPackArguments: false
+PenaltyReturnTypeOnItsOwnLine: 1000
